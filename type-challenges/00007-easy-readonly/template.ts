@@ -3,6 +3,8 @@ type MyReadonly<T> = {
 }
 
 // keyof显示键名
+// [in T] 相当于遍历
+//遍历得到建名
 //js
 
 function readonly(obj) {
